@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scipy
+pymannkendall
+statsmodels
+plotly
+xarray
+netCDF4
+earthaccess
+pytest
