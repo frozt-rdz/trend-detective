@@ -112,3 +112,10 @@ def test_nan_se_elimina_y_n_refleja_observaciones_validas():
     valid_pairs = np.isfinite(years) & np.isfinite(values)
     assert result.n == int(valid_pairs.sum())
     assert any("menos de 10" in warning for warning in result.warnings)
+
+def test_p_value_siempre_finito_en_ruido():
+    rng = np.random.default_rng(0)
+    anios = np.arange(2000, 2020)
+    for _ in range(100):
+        r = trend_report(anios, rng.normal(size=20))
+        assert np.isfinite(r.p_value) and np.isfinite(r.z)
