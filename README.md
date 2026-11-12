@@ -116,4 +116,8 @@ Los casos de prueba incluyen:
 
 ## Fuentes de datos
 
-Se documentarán conforme se agreguen variables, incluyendo producto, versión y DOI.
+Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K., & Stafford, T. (2025). Sea Ice Index (G02135, Version 4) [Conjunto de datos]. National Snow and Ice Data Center. https://doi.org/10.7265/a98x-0f50
+
+GISTEMP Team. (2026). GISS Surface Temperature Analysis (GISTEMP), version 4 [Conjunto de datos]. NASA Goddard Institute for Space Studies. Consultado el 11 de noviembre de 2026. https://data.giss.nasa.gov/gistemp/
+
+Lenssen, N., Schmidt, G. A., Hendrickson, M., Jacobs, P., Menne, M. J., & Ruedy, R. (2024). A NASA GISTEMPv4 observational uncertainty ensemble. Journal of Geophysical Research: Atmospheres, 129, e2023JD040179. https://doi.org/10.1029/2023JD040179
