@@ -184,9 +184,25 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         test_result = mk.original_test(values_array, alpha=alpha)
         method = "Mann-Kendall"
 
+    # Hamed-Rao puede devolver NaN (p. ej. con autocorrelación negativa, la
+    # varianza corregida sale negativa). Si pasa, usar Mann-Kendall original
+    # y avisarlo, en vez de reportar "no significativa" sin explicación.
+    if method == "Hamed-Rao" and not (
+        np.isfinite(test_result.p) and np.isfinite(test_result.z)
+    ):
+        warning_messages.append(
+            "Hamed-Rao no produjo un valor p válido; "
+            "se utilizó Mann-Kendall original."
+        )
+        test_result = mk.original_test(values_array, alpha=alpha)
+        method = "Mann-Kendall"
+
     p_value = float(test_result.p)
     z = float(test_result.z)
     trend = str(test_result.trend)
+
+    if not (np.isfinite(p_value) and np.isfinite(z)):
+        raise ValueError("No se pudo calcular un valor p válido para esta serie.")
     significant = bool(p_value < alpha)
 
     # Advertir cuando hay significancia estadística, pero el cambio estimado
