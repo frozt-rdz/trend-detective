@@ -1,0 +1,644 @@
+﻿variable,region,fecha,valor,unidades,fuente,doi
+anomalia_temperatura,Hemisferio norte,2000-01-01,0.39,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-02-01,0.89,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-03-01,0.84,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-04-01,0.88,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-05-01,0.54,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-06-01,0.44,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-07-01,0.41,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-08-01,0.47,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-09-01,0.37,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-10-01,0.29,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-11-01,0.2,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2000-12-01,0.27,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-01-01,0.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-02-01,0.46,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-03-01,0.76,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-04-01,0.59,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-05-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-06-01,0.51,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-07-01,0.63,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-08-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-09-01,0.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-10-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-11-01,0.97,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2001-12-01,0.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-01-01,1.02,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-02-01,1.15,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-03-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-04-01,0.51,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-05-01,0.52,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-06-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-07-01,0.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-08-01,0.55,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-09-01,0.63,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-10-01,0.53,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-11-01,0.78,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2002-12-01,0.43,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-01-01,0.92,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-02-01,0.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-03-01,0.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-04-01,0.61,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-05-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-06-01,0.54,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-07-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-08-01,0.86,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-09-01,0.78,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-10-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-11-01,0.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2003-12-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-01-01,0.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-02-01,0.92,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-03-01,0.87,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-04-01,0.7,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-05-01,0.52,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-06-01,0.47,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-07-01,0.5,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-08-01,0.55,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-09-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-10-01,0.7,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-11-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2004-12-01,0.45,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-01-01,0.95,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-02-01,0.72,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-03-01,0.95,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-04-01,0.93,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-05-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-06-01,0.78,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-07-01,0.75,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-08-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-09-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-10-01,0.95,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-11-01,1.06,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2005-12-01,0.83,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-01-01,0.64,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-02-01,0.96,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-03-01,0.78,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-04-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-05-01,0.76,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-06-01,0.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-07-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-08-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-09-01,0.82,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-10-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-11-01,0.94,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2006-12-01,1.15,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-01-01,1.45,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-02-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-03-01,0.94,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-04-01,1.07,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-05-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-06-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-07-01,0.64,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-08-01,0.72,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-09-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-10-01,0.84,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-11-01,0.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2007-12-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-01-01,0.34,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-02-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-03-01,1.14,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-04-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-05-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-06-01,0.61,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-07-01,0.6,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-08-01,0.58,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-09-01,0.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-10-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-11-01,0.97,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2008-12-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-01-01,0.82,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-02-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-03-01,0.59,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-04-01,0.7,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-05-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-06-01,0.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-07-01,0.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-08-01,0.72,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-09-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-10-01,0.78,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-11-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2009-12-01,0.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-01-01,0.8,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-02-01,0.96,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-03-01,1.11,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-04-01,1.14,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-05-01,0.94,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-06-01,0.84,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-07-01,0.89,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-08-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-09-01,0.7,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-10-01,0.88,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-11-01,1.21,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2010-12-01,0.52,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-01-01,0.62,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-02-01,0.55,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-03-01,0.89,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-04-01,0.82,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-05-01,0.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-06-01,0.76,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-07-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-08-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-09-01,0.73,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-10-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-11-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2011-12-01,0.87,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-01-01,0.65,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-02-01,0.58,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-03-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-04-01,1.06,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-05-01,0.96,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-06-01,0.94,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-07-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-08-01,0.76,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-09-01,0.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-10-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-11-01,0.96,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2012-12-01,0.44,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-01-01,0.84,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-02-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-03-01,0.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-04-01,0.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-05-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-06-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-07-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-08-01,0.73,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-09-01,0.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-10-01,0.83,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-11-01,1.13,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2013-12-01,0.84,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-01-01,0.97,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-02-01,0.71,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-03-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-04-01,1.09,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-05-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-06-01,0.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-07-01,0.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-08-01,0.91,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-09-01,0.83,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-10-01,0.93,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-11-01,0.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2014-12-01,1.1,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-01-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-02-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-03-01,1.31,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-04-01,1.01,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-05-01,1.04,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-06-01,1.04,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-07-01,0.92,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-08-01,1.01,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-09-01,1.17,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-10-01,1.28,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-11-01,1.36,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2015-12-01,1.53,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-01-01,1.54,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-02-01,1.92,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-03-01,1.87,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-04-01,1.46,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-05-01,1.11,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-06-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-07-01,1.05,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-08-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-09-01,1.22,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-10-01,1.03,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-11-01,1.11,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2016-12-01,1.04,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-01-01,1.38,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-02-01,1.48,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-03-01,1.48,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-04-01,1.18,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-05-01,0.92,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-06-01,0.93,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-07-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-08-01,1.02,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-09-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-10-01,1.03,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-11-01,1.2,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2017-12-01,1.37,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-01-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-02-01,1.22,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-03-01,1.17,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-04-01,0.97,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-05-01,1.01,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-06-01,0.86,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-07-01,0.93,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-08-01,0.9,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-09-01,0.98,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-10-01,1.23,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-11-01,0.97,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2018-12-01,1.09,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-01-01,1.18,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-02-01,1.13,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-03-01,1.54,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-04-01,1.24,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-05-01,1.01,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-06-01,1.2,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-07-01,1.03,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-08-01,1.11,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-09-01,1.21,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-10-01,1.29,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-11-01,1.18,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2019-12-01,1.4,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-01-01,1.58,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-02-01,1.68,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-03-01,1.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-04-01,1.38,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-05-01,1.26,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-06-01,1.14,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-07-01,1.1,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-08-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-09-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-10-01,1.2,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-11-01,1.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2020-12-01,1.18,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-01-01,1.25,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-02-01,0.94,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-03-01,1.2,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-04-01,1.13,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-05-01,1.04,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-06-01,1.21,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-07-01,1.08,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-08-01,1.02,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-09-01,1.04,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-10-01,1.28,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-11-01,1.3,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2021-12-01,1.17,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-01-01,1.24,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-02-01,1.15,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-03-01,1.4,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-04-01,1.08,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-05-01,1.02,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-06-01,1.13,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-07-01,1.06,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-08-01,1.17,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-09-01,1.14,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-10-01,1.31,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-11-01,1.09,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2022-12-01,1.06,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-01-01,1.28,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-02-01,1.27,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-03-01,1.63,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-04-01,1.01,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-05-01,1.12,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-06-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-07-01,1.44,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-08-01,1.57,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-09-01,1.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-10-01,1.88,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-11-01,1.96,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2023-12-01,1.85,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-01-01,1.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-02-01,1.91,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-03-01,1.77,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-04-01,1.79,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-05-01,1.44,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-06-01,1.53,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-07-01,1.42,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-08-01,1.43,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-09-01,1.56,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-10-01,1.73,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-11-01,1.87,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2024-12-01,1.69,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-01-01,1.82,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-02-01,1.61,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-03-01,1.81,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-04-01,1.58,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-05-01,1.21,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-06-01,1.19,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-07-01,1.22,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-08-01,1.27,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-09-01,1.38,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-10-01,1.47,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-11-01,1.67,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2025-12-01,1.4,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-01-01,1.38,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-02-01,1.57,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-03-01,1.59,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-04-01,1.37,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-05-01,1.3,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-06-01,1.44,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-07-01,1.53,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-08-01,1.66,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+anomalia_temperatura,Hemisferio norte,2026-09-01,1.79,°C,NASA GISS GISTEMP v4; base 1951-1980,No asignado; ver fuente oficial
+extension_hielo_marino,Artico,2000-01-01,14.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-02-01,15.14,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-03-01,15.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-04-01,14.56,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-05-01,13.15,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-06-01,11.67,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-07-01,9.51,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-08-01,7.17,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-09-01,6.25,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-10-01,8.38,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-11-01,10.32,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2000-12-01,12.64,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-01-01,14.2,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-02-01,15.21,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-03-01,15.52,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-04-01,14.86,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-05-01,13.51,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-06-01,11.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-07-01,9.07,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-08-01,7.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-09-01,6.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-10-01,8.3,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-11-01,10.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2001-12-01,12.49,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-01-01,14.27,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-02-01,15.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-03-01,15.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-04-01,14.3,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-05-01,12.97,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-06-01,11.58,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-07-01,9.27,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-08-01,6.6,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-09-01,5.83,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-10-01,8.16,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-11-01,10.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2002-12-01,12.61,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-01-01,14.39,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-02-01,15.19,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-03-01,15.48,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-04-01,14.51,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-05-01,13.02,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-06-01,11.6,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-07-01,9.21,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-08-01,6.94,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-09-01,6.12,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-10-01,7.85,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-11-01,10.13,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2003-12-01,12.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-01-01,14.03,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-02-01,14.91,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-03-01,14.99,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-04-01,13.99,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-05-01,12.56,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-06-01,11.45,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-07-01,9.43,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-08-01,6.85,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-09-01,5.98,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-10-01,7.93,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-11-01,10.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2004-12-01,12.55,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-01-01,13.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-02-01,14.37,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-03-01,14.69,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-04-01,14.09,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-05-01,12.91,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-06-01,11.16,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-07-01,8.65,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-08-01,6.3,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-09-01,5.5,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-10-01,7.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-11-01,10.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2005-12-01,12.23,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-01-01,13.47,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-02-01,14.32,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-03-01,14.42,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-04-01,13.91,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-05-01,12.52,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-06-01,10.92,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-07-01,8.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-08-01,6.5,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-09-01,5.86,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-10-01,7.54,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-11-01,9.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2006-12-01,11.95,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-01-01,13.7,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-02-01,14.51,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-03-01,14.54,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-04-01,13.85,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-05-01,12.78,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-06-01,11.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-07-01,7.94,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-08-01,5.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-09-01,4.27,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-10-01,6.04,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-11-01,9.76,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2007-12-01,12.03,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-01-01,13.89,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-02-01,14.95,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-03-01,15.18,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-04-01,14.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-05-01,12.97,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-06-01,11.21,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-07-01,8.68,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-08-01,5.91,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-09-01,4.69,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-10-01,7.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-11-01,10.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2008-12-01,12.36,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-01-01,13.91,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-02-01,14.81,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-03-01,14.98,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-04-01,14.5,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-05-01,13.19,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-06-01,11.32,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-07-01,8.47,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-08-01,6.14,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-09-01,5.26,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-10-01,6.92,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-11-01,9.77,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2009-12-01,12.2,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-01-01,13.74,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-02-01,14.58,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-03-01,15.14,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-04-01,14.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-05-01,12.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-06-01,10.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-07-01,8.07,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-08-01,5.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-09-01,4.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-10-01,6.98,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-11-01,9.61,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2010-12-01,11.83,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-01-01,13.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-02-01,14.36,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-03-01,14.55,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-04-01,14.11,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-05-01,12.68,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-06-01,10.75,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-07-01,7.72,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-08-01,5.5,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-09-01,4.56,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-10-01,6.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-11-01,9.77,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2011-12-01,12.15,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-01-01,13.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-02-01,14.55,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-03-01,15.2,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-04-01,14.63,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-05-01,13.01,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-06-01,10.67,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-07-01,7.67,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-08-01,4.72,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-09-01,3.57,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-10-01,5.89,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-11-01,9.39,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2012-12-01,12.01,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-01-01,13.7,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-02-01,14.72,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-03-01,15.03,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-04-01,14.3,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-05-01,13.0,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-06-01,11.36,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-07-01,8.13,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-08-01,6.01,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-09-01,5.21,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-10-01,7.45,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-11-01,9.94,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2013-12-01,12.18,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-01-01,13.65,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-02-01,14.42,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-03-01,14.76,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-04-01,14.09,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-05-01,12.7,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-06-01,11.03,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-07-01,8.11,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-08-01,6.08,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-09-01,5.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-10-01,7.23,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-11-01,10.11,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2014-12-01,12.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-01-01,13.6,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-02-01,14.4,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-03-01,14.37,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-04-01,13.89,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-05-01,12.47,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-06-01,10.88,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-07-01,8.38,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-08-01,5.6,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-09-01,4.62,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-10-01,6.97,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-11-01,9.85,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2015-12-01,12.04,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-01-01,13.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-02-01,14.2,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-03-01,14.4,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-04-01,13.68,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-05-01,11.92,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-06-01,10.41,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-07-01,7.94,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-08-01,5.37,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-09-01,4.53,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-10-01,6.08,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-11-01,8.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2016-12-01,11.46,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-01-01,13.19,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-02-01,14.12,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-03-01,14.29,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-04-01,13.75,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-05-01,12.63,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-06-01,10.76,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-07-01,7.94,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-08-01,5.48,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-09-01,4.82,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-10-01,6.77,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-11-01,9.49,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2017-12-01,11.74,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-01-01,13.08,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-02-01,13.97,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-03-01,14.3,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-04-01,13.7,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-05-01,12.23,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-06-01,10.78,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-07-01,8.27,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-08-01,5.61,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-09-01,4.79,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-10-01,6.13,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-11-01,9.82,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2018-12-01,11.86,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-01-01,13.57,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-02-01,14.39,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-03-01,14.57,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-04-01,13.43,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-05-01,12.19,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-06-01,10.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-07-01,7.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-08-01,5.03,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-09-01,4.36,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-10-01,5.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-11-01,9.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2019-12-01,11.9,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-01-01,13.64,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-02-01,14.64,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-03-01,14.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-04-01,13.62,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-05-01,12.34,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-06-01,10.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-07-01,7.29,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-08-01,5.07,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-09-01,4.0,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-10-01,5.33,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-11-01,8.99,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2020-12-01,11.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-01-01,13.5,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-02-01,14.39,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-03-01,14.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-04-01,13.79,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-05-01,12.68,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-06-01,10.77,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-07-01,7.65,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-08-01,5.71,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-09-01,4.95,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-10-01,6.82,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-11-01,9.83,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2021-12-01,12.15,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-01-01,13.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-02-01,14.61,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-03-01,14.59,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-04-01,13.99,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-05-01,12.88,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-06-01,10.88,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-07-01,8.29,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-08-01,5.95,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-09-01,4.9,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-10-01,6.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-11-01,9.73,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2022-12-01,11.89,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-01-01,13.36,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-02-01,14.19,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-03-01,14.43,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-04-01,13.92,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-05-01,12.82,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-06-01,10.99,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-07-01,8.21,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-08-01,5.51,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-09-01,4.38,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-10-01,6.41,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-11-01,9.68,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2023-12-01,11.98,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-01-01,13.92,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-02-01,14.61,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-03-01,14.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-04-01,14.04,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-05-01,12.74,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-06-01,10.85,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-07-01,7.87,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-08-01,5.13,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-09-01,4.35,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-10-01,5.93,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-11-01,9.15,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2024-12-01,11.41,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-01-01,13.11,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-02-01,13.75,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-03-01,14.12,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-04-01,13.83,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-05-01,12.49,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-06-01,10.4,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-07-01,7.66,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-08-01,5.39,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-09-01,4.75,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-10-01,6.32,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-11-01,8.77,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2025-12-01,11.22,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-01-01,13.11,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-02-01,14.1,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-03-01,14.13,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-04-01,13.57,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-05-01,12.14,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-06-01,10.42,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-07-01,7.71,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-08-01,5.56,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-09-01,4.81,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
+extension_hielo_marino,Artico,2026-10-01,6.69,millones km²,NSIDC Sea Ice Index G02135 v4.0,10.7265/a98x-0f50
