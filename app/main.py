@@ -7,7 +7,8 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from stats.trends import trend_report  # noqa: E402
+from app.analisis import analizar_tendencia, formatear_p  # noqa: E402
+
 
 DATA_PATH = ROOT / "data" / "processed" / "observaciones.csv"
 SAMPLE_PATH = ROOT / "data" / "sample" / "muestra_sintetica.csv"
@@ -58,6 +59,10 @@ labels = {
     "extension_hielo_marino": "Extensión del hielo marino",
     "anomalia_temperatura": "Anomalía de temperatura",
 }
+
+# Decimales a mostrar por variable (las que no estén aquí usan 3).
+DECIMALES = {"temperatura_superficial": 3, "humedad_suelo": 4}
+
 variables = sorted(df["variable"].unique())
 variable = st.sidebar.selectbox("Variable", variables, format_func=lambda v: labels.get(v, v))
 subset = df[df["variable"] == variable].copy()
@@ -71,24 +76,46 @@ if min_year == max_year:
 else:
     selected = st.sidebar.slider("Periodo", min_year, max_year, (min_year, max_year))
 
-serie = serie[serie["fecha"].dt.year.between(*selected)].copy()
-if len(serie) < 2:
-    st.warning("Necesitamos al menos 2 observaciones para mostrar una tendencia.")
+inicio, fin = selected
+if fin - inicio < 4:  #con menos años trend_report no es fiable
+    st.warning("Elige un periodo de al menos 5 años.")
     st.stop()
 
 unit = serie["unidades"].iloc[0]
 # Pendiente lineal exploratoria (no sustituye a Sen/Mann-Kendall).
-x = serie["fecha"].dt.year + (serie["fecha"].dt.month - 1) / 12
-slope, intercept = np.polyfit(x.to_numpy(float), serie["valor"].to_numpy(float), 1)
-serie["tendencia_lineal"] = intercept + slope * x
+ap = DECIMALES.get(variable, 3)  # ecimales según la variable
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Observaciones mensuales", len(serie))
-col2.metric("Último registro", f"{serie['valor'].iloc[-1]:.3f} {unit}")
-col3.metric("Pendiente lineal exploratoria", f"{10 * slope:+.3f} {unit}/década")
+# IMPORTANTE: analizar_tendencia recibe la serie COMPLETA (sin recortar por el slider),
+# porque calcula el clima de referencia 2000–2019; el slider solo fija inicio y fin.
+try:
+    r, anual = analizar_tendencia(serie, inicio, fin)
+except (ValueError, ZeroDivisionError) as exc:
+    st.warning(f"No fue posible calcular el análisis estadístico: {exc}")
+    st.stop()
 
 st.subheader(f"{labels.get(variable, variable)} — {region}")
-st.line_chart(serie.set_index("fecha")[["valor", "tendencia_lineal"]])
+a, b, c, d = st.columns(4)
+a.metric("Pendiente de Sen", f"{r.sen_slope_decade:+.{ap}f} {unit}/década")
+b.metric("Valor p", formatear_p(r.p_value))
+c.metric("Método", r.method)
+d.metric("Último registro", f"{serie['valor'].iloc[-1]:.3f} {unit}")
+st.write(f"IC 95 %: [{r.ci_low_decade:+.{ap}f}, {r.ci_high_decade:+.{ap}f}] {unit}/década · {r.n} años completos")
+if not r.significant:
+    st.info("No se puede afirmar una tendencia con estos datos.")
+for aviso in r.warnings:
+    st.warning(aviso)
+
+# Anomalía anual + recta de Sen (la misma pendiente que se reporta arriba).
+anios = anual.index.to_series()
+sen_linea = anual.median() + (r.sen_slope_decade / 10) * (anios - anios.median())
+grafica = pd.DataFrame({"Anomalía anual": anual, "Tendencia (Sen)": sen_linea})
+grafica.index = pd.to_datetime(grafica.index.astype(str), format="%Y")
+st.line_chart(grafica, y_label=f"Anomalía ({unit})", x_label="Año")
+st.caption("Anomalía respecto al promedio mensual 2000–2019. Solo se analizan años con 12 meses disponibles.")
+
+with st.expander("Ver serie mensual original"):
+    mensual = serie[serie["fecha"].dt.year.between(inicio, fin)]
+    st.line_chart(mensual.set_index("fecha")["valor"], y_label=unit)
 
 
 # Mostrar la procedencia de los datos debajo de la gráfica.
@@ -122,28 +149,23 @@ if variable == "anomalia_temperatura":
         "1951–1980; no representa temperatura absoluta."
     )
 
-# El módulo estadístico recibe solamente AÑOS COMPLETOS y una media anual por año.
-serie["anio"] = serie["fecha"].dt.year
-annual = serie.groupby("anio").agg(
-    media=("valor", "mean"),
-    meses=("fecha", "nunique"),
-)
-annual = annual[annual["meses"] == 12]
-st.subheader("Análisis estadístico sobre años completos")
-if len(annual) < 4:
-    st.warning("Se necesitan más años completos para interpretar la tendencia con cautela.")
-else:
-    try:
-        result = trend_report(annual.index.to_numpy(), annual["media"].to_numpy())
-        a, b, c = st.columns(3)
-        a.metric("Pendiente de Sen", f"{result.sen_slope_decade:+.3f} {unit}/década")
-        b.metric("Valor p", f"{result.p_value:.4g}")
-        c.metric("Método", result.method)
-        st.write(f"Tendencia: **{result.trend}**. Significativa: **{'Sí' if result.significant else 'No'}**.")
-        st.caption(f"Intervalo de confianza: [{result.ci_low_decade:.3f}, {result.ci_high_decade:.3f}] {unit}/década")
-        for warning in result.warnings:
-            st.warning(warning)
-    except (ValueError, ZeroDivisionError) as exc:
-        st.warning(f"No fue posible calcular el análisis estadístico: {exc}")
-
-st.caption("Los datos de 2026 pueden ser parciales. Solo se analizan años con 12 meses disponibles.")
+# Comparación de regiones: solo tiene sentido si la variable tiene 2 o más regiones.
+regiones = sorted(subset["region"].unique())
+if len(regiones) > 1:
+    filas = []
+    for reg in regiones:
+        serie_reg = subset[subset["region"] == reg]
+        try:
+            res, _ = analizar_tendencia(serie_reg, inicio, fin)
+        except (ValueError, ZeroDivisionError):
+            filas.append({"Región": reg, "Pendiente": "No disponible", "IC 95 %": "—", "p": "—", "¿Significativa?": "—"})
+            continue
+        filas.append({
+            "Región": reg,
+            "Pendiente": f"{res.sen_slope_decade:+.{ap}f} {unit}/década",
+            "IC 95 %": f"[{res.ci_low_decade:+.{ap}f}, {res.ci_high_decade:+.{ap}f}]",
+            "p": formatear_p(res.p_value),
+            "¿Significativa?": "Sí" if res.significant else "No",
+        })
+    st.subheader("Comparación de regiones")
+    st.dataframe(pd.DataFrame(filas), hide_index=True)
