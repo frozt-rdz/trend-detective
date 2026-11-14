@@ -1,0 +1,758 @@
+[
+  {
+    "file": "precip_chiapas.csv",
+    "sha256": "cdb2b3bd3cc78b3d75328b8228b89377bedd68ab7a18726d6abd936a859d1ad8",
+    "variable": "precipitation_rate",
+    "region": "chiapas",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -93.5,
+      16.0,
+      -91.0,
+      17.5
+    ],
+    "data_bbox_wsen": [
+      -93.45,
+      16.05,
+      -91.05,
+      17.45
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=IMERG%20V07&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general use) (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-93.5,16,-91,17.5",
+      "Data Bounding Box": "-93.45,16.05,-91.05,17.45",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=IMERG%20V07&portal=GIOVANNI&format=json",
+      "Fill Value (GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "precip_morelos.csv",
+    "sha256": "0209570f9466ed1a0bea08badaf270d2760cfae6fc8b308cbc484f978045ba39",
+    "variable": "precipitation_rate",
+    "region": "morelos",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -100.0,
+      18.0,
+      -98.2,
+      19.6
+    ],
+    "data_bbox_wsen": [
+      -99.95,
+      18.05,
+      -98.25,
+      19.55
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general use) (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-100,18,-98.2,19.6",
+      "Data Bounding Box": "-99.95,18.05,-98.25,19.55",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "precip_sahel.csv",
+    "sha256": "31a438c99fbbcb6b41e728d09af6ea7365fc495f3d6750cf12d6ef83d39d3ae8",
+    "variable": "precipitation_rate",
+    "region": "sahel",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -10.0,
+      12.0,
+      10.0,
+      16.0
+    ],
+    "data_bbox_wsen": [
+      -9.95,
+      12.05,
+      9.95,
+      15.95
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-10,12,10,16",
+      "Data Bounding Box": "-9.95,12.05,9.95,15.95",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "precip_sonora.csv",
+    "sha256": "7c4c12953d8fdc7e2c2cdba412446e72dd087c2a51c124266ddf20f05ac757fc",
+    "variable": "precipitation_rate",
+    "region": "sonora",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -111.5,
+      29.0,
+      -108.8,
+      31.5
+    ],
+    "data_bbox_wsen": [
+      -111.45,
+      29.05,
+      -108.85,
+      31.45
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general use) (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-111.5,29,-108.8,31.5",
+      "Data Bounding Box": "-111.45,29.05,-108.85,31.45",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "precip_suramazonias.csv",
+    "sha256": "d8bff98d8bcca0c678af0f8e83abb43c2fe5e93bc32104e7032a2719bd0c9807",
+    "variable": "precipitation_rate",
+    "region": "suramazonias",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -62.0,
+      -14.0,
+      -52.0,
+      -6.0
+    ],
+    "data_bbox_wsen": [
+      -61.95,
+      -13.95,
+      -52.05,
+      -6.05
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general use) (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-62,-14,-52,-6",
+      "Data Bounding Box": "-61.95,-13.95,-52.05,-6.05",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "precip_zacatecas.csv",
+    "sha256": "37c76a75787a357bf6cc85774278f896dd6bb005dbc3010a0fb3b2b6d20932c5",
+    "variable": "precipitation_rate",
+    "region": "zacatecas",
+    "product": "GPM_3IMERGM_07_precipitation",
+    "units": "mm/day",
+    "source": "NASA GPM IMERG Final Run V07 (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.1,
+      0.1
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -103.5,
+      22.3,
+      -101.5,
+      24.5
+    ],
+    "data_bbox_wsen": [
+      -103.45,
+      22.35,
+      -101.55,
+      24.45
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Merged satellite-gauge precipitation estimate - Final Run (recommended for general use) (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-103.5,22.3,-101.5,24.5",
+      "Data Bounding Box": "-103.45,22.35,-101.55,24.45",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=GPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=GPM_3IMERGM%20v07&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GPM_3IMERGM_07_precipitation)": "-9999.9"
+    }
+  },
+  {
+    "file": "suelo_chiapas.csv",
+    "sha256": "47e07889a52c32f45cd3a99603632c6ec34a45f09c9c65bfedf16374bf06f0ed",
+    "variable": "soil_moisture_0_10cm",
+    "region": "chiapas",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -93.5,
+      16.0,
+      -91.0,
+      17.5
+    ],
+    "data_bbox_wsen": [
+      -93.375,
+      16.125,
+      -91.125,
+      17.375
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=Soil%20moisture%20content%20(0%20-%2010%20cm%20underground)&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS Model (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-93.5,16,-91,17.5",
+      "Data Bounding Box": "-93.375,16.125,-91.125,17.375",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=Soil%20moisture%20content%20(0%20-%2010%20cm%20underground)&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "suelo_morelos.csv",
+    "sha256": "dd1cf3c3472e8af78d0431c70e1979f2a11b5b1d82e7b7b147877f3465ee39d9",
+    "variable": "soil_moisture_0_10cm",
+    "region": "morelos",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -100.0,
+      18.0,
+      -98.2,
+      19.6
+    ],
+    "data_bbox_wsen": [
+      -99.875,
+      18.125,
+      -98.375,
+      19.375
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS Model (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-100,18,-98.2,19.6",
+      "Data Bounding Box": "-99.875,18.125,-98.375,19.375",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "suelo_sahel.csv",
+    "sha256": "2cfdd7c2cddb51877fba393eaae0b9576ccfd0ec3011ee1b2ab2dd22c1ac0f5a",
+    "variable": "soil_moisture_0_10cm",
+    "region": "sahel",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -10.0,
+      12.0,
+      10.0,
+      16.0
+    ],
+    "data_bbox_wsen": [
+      -9.875,
+      12.125,
+      9.875,
+      15.875
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-10,12,10,16",
+      "Data Bounding Box": "-9.875,12.125,9.875,15.875",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "suelo_sonora.csv",
+    "sha256": "272d9044ada54a582c832c61458b8ea6129b5f99309c00177fa359fe74bb1454",
+    "variable": "soil_moisture_0_10cm",
+    "region": "sonora",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -111.5,
+      29.0,
+      -108.8,
+      31.5
+    ],
+    "data_bbox_wsen": [
+      -111.375,
+      29.125,
+      -108.875,
+      31.375
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-111.5,29,-108.8,31.5",
+      "Data Bounding Box": "-111.375,29.125,-108.875,31.375",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "suelo_suramazonias.csv",
+    "sha256": "19dabe6390d424234fb61b3260d49569665bdbe76f8539cc255379713b36fe0f",
+    "variable": "soil_moisture_0_10cm",
+    "region": "suramazonias",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -62.0,
+      -14.0,
+      -52.0,
+      -6.0
+    ],
+    "data_bbox_wsen": [
+      -61.875,
+      -13.875,
+      -52.125,
+      -6.125
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-62,-14,-52,-6",
+      "Data Bounding Box": "-61.875,-13.875,-52.125,-6.125",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "suelo_zacatecas.csv",
+    "sha256": "2542bff0152959e0aff717d47f1e39443b74ec8cd1d867d7778e02fb47c6ea97",
+    "variable": "soil_moisture_0_10cm",
+    "region": "zacatecas",
+    "product": "GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst",
+    "units": "kg/m²",
+    "source": "NASA GLDAS Noah 0–10 cm soil moisture (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.25,
+      0.25
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -103.5,
+      22.3,
+      -101.5,
+      24.5
+    ],
+    "data_bbox_wsen": [
+      -103.375,
+      22.375,
+      -101.625,
+      24.375
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of Soil moisture content (0 - 10 cm underground) monthly 0.25 deg. [GLDAS (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-103.5,22.3,-101.5,24.5",
+      "Data Bounding Box": "-103.375,22.375,-101.625,24.375",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&variableFacets=dataFieldDepth%3A0%20-%2010%20cm%2C0-10%20cm%2C0-10cm%3B&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (mean_GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst)": "-9999"
+    }
+  },
+  {
+    "file": "temp_chiapas.csv",
+    "sha256": "0a7bed50512faa52a38f57c8e59971f18c0133097adafabe0391e8c31733c6a1",
+    "variable": "air_temperature_2m",
+    "region": "chiapas",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -93.5,
+      16.0,
+      -91.0,
+      17.5
+    ],
+    "data_bbox_wsen": [
+      -93.125,
+      16.0,
+      -91.25,
+      17.5
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=IMERG%20V07&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 deg. [MERRA-2 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-93.5,16,-91,17.5",
+      "Data Bounding Box": "-93.125,16,-91.25,17.5",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-93.5,16,-91,17.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)&dataKeyword=IMERG%20V07&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  },
+  {
+    "file": "temp_morelos.csv",
+    "sha256": "253a7a058601d37795ee07745859e1ab5e372ff441c26a8d212561f4cd8aebf0",
+    "variable": "air_temperature_2m",
+    "region": "morelos",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -100.0,
+      18.0,
+      -98.2,
+      19.6
+    ],
+    "data_bbox_wsen": [
+      -100.0,
+      18.0,
+      -98.75,
+      19.5
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 deg. [MERRA-2 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-100,18,-98.2,19.6",
+      "Data Bounding Box": "-100,18,-98.75,19.5",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-100,18,-98.2,19.6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  },
+  {
+    "file": "temp_sahel.csv",
+    "sha256": "f83ccbc956071fe6abf161f93962579ef9ea5f0ae3e89d7466539a829ffe5e4c",
+    "variable": "air_temperature_2m",
+    "region": "sahel",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -10.0,
+      12.0,
+      10.0,
+      16.0
+    ],
+    "data_bbox_wsen": [
+      -10.0,
+      12.0,
+      10.0,
+      16.0
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=2-meter%20air%20temperature&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-10,12,10,16",
+      "Data Bounding Box": "-10,12,10,16",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-10,12,10,16&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=2-meter%20air%20temperature&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  },
+  {
+    "file": "temp_sonora.csv",
+    "sha256": "1ba08161e0d298a0296829e178717273898e431362a192a151009df5cfab0a0e",
+    "variable": "air_temperature_2m",
+    "region": "sonora",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -111.5,
+      29.0,
+      -108.8,
+      31.5
+    ],
+    "data_bbox_wsen": [
+      -111.25,
+      29.0,
+      -109.375,
+      31.5
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=M2TMNXSLV&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 deg. [MERRA-2 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-111.5,29,-108.8,31.5",
+      "Data Bounding Box": "-111.25,29,-109.375,31.5",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-111.5,29,-108.8,31.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=M2TMNXSLV&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  },
+  {
+    "file": "temp_suramazonias.csv",
+    "sha256": "e6d7d2aaae02948e0e1e7c581b373f4a2e7698989e26e1b7d100bfbcfa769681",
+    "variable": "air_temperature_2m",
+    "region": "suramazonias",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -62.0,
+      -14.0,
+      -52.0,
+      -6.0
+    ],
+    "data_bbox_wsen": [
+      -61.875,
+      -14.0,
+      -52.5,
+      -6.0
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-62,-14,-52,-6",
+      "Data Bounding Box": "-61.875,-14,-52.5,-6",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/?utm_source=chatgpt.com#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-62,-14,-52,-6&data=M2TMNXSLV_5_12_4_T2M(units%3DC)%2CGPM_3IMERGM_07_precipitation(units%3Dmm%2Fday)%2CGLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst&dataKeyword=GLDAS_NOAH025_M_2.1&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  },
+  {
+    "file": "temp_zacatecas.csv",
+    "sha256": "fe9b45ac6d34603494924322cf4b0b64f3c473b8835b55b20deddfdabe3ae2a9",
+    "variable": "air_temperature_2m",
+    "region": "zacatecas",
+    "product": "M2TMNXSLV_5_12_4_T2M",
+    "units": "°C",
+    "source": "NASA MERRA-2 monthly T2M (Giovanni)",
+    "nominal_resolution_degrees_lat_lon": [
+      0.5,
+      0.625
+    ],
+    "resolution_note": "Nominal product grid; not an inferred resolution from area-averaged CSV",
+    "user_bbox_wsen": [
+      -103.5,
+      22.3,
+      -101.5,
+      24.5
+    ],
+    "data_bbox_wsen": [
+      -103.125,
+      22.5,
+      -101.875,
+      24.5
+    ],
+    "start_date": "2000-01-01T00:00:00",
+    "end_date": "2024-12-31T23:59:59",
+    "raw_rows": 300,
+    "valid_rows": 300,
+    "fill_or_nonfinite_count": 0,
+    "missing_months": [],
+    "reproduction_url": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=M2TMNXSLV&portal=GIOVANNI&format=json",
+    "original_metadata": {
+      "Title": "Time Series, Area-Averaged of 2-meter air temperature monthly 0.5 x 0.625 deg. [MERRA-2 (monthly)",
+      "User Start Date": "2000-01-01T00:00:00Z",
+      "User End Date": "2024-12-31T23:59:59Z",
+      "User Bounding Box": "-103.5,22.3,-101.5,24.5",
+      "Data Bounding Box": "-103.125,22.5,-101.875,24.5",
+      "URL to Reproduce Results": "https://giovanni.gsfc.nasa.gov/giovanni/#service=ArAvTs&starttime=2000-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=-103.5,22.3,-101.5,24.5&data=M2TMNXSLV_5_12_4_T2M(units%3DC)&dataKeyword=M2TMNXSLV&portal=GIOVANNI&format=json",
+      "Fill Value (mean_M2TMNXSLV_5_12_4_T2M)": "1000000000000000"
+    }
+  }
+]
