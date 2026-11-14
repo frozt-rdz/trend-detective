@@ -116,8 +116,14 @@ Test cases include:
 
 ## Data Sources
 
+Beaudoing, H., Rodell, M., & NASA/GSFC/HSL (2020). GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree, Version 2.1 [Data set]. NASA GES DISC. https://doi.org/10.5067/SXAVCZFAQLNO
+
 Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K., & Stafford, T. (2025). Sea Ice Index (G02135, Version 4) [Dataset]. National Snow and Ice Data Center. https://doi.org/10.7265/a98x-0f50
 
 GISTEMP Team. (2026). GISS Surface Temperature Analysis (GISTEMP), version 4 [Dataset]. NASA Goddard Institute for Space Studies. Accessed November 11, 2026. https://data.giss.nasa.gov/gistemp/
+
+Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., & Tan, J. (2023). GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 [Data set]. NASA Goddard Earth Sciences Data and Information Services Center. https://doi.org/10.5067/GPM/IMERG/3B-MONTH/07 
+
+Global Modeling and Assimilation Office & Pawson, S. (2015). MERRA-2 tavgM_2d_slv_Nx ... V5.12.4 [Data set]. NASA GES DISC. https://doi.org/10.5067/AP1B0BA5PD2K
 
 Lenssen, N., Schmidt, G. A., Hendrickson, M., Jacobs, P., Menne, M. J., & Ruedy, R. (2024). A NASA GISTEMPv4 observational uncertainty ensemble. Journal of Geophysical Research: Atmospheres, 129, e2023JD040179. https://doi.org/10.1029/2023JD040179
