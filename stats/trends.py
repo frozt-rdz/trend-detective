@@ -1,28 +1,29 @@
-"""Herramientas para analizar tendencias en series temporales anuales.
+"""Tools for analyzing trends in annual time series.
 
-Dependencias:
+Dependencies:
     pip install numpy scipy pymannkendall
 
-Uso:
+Usage:
     resultado = trend_report(years, values)
     print(resultado.sen_slope_decade)
     print(resultado.trend)
 
-Notas metodológicas:
-- La pendiente de Sen y su intervalo se calculan usando los años reales como x,
-  por lo que los huecos entre años sí afectan la pendiente por unidad de tiempo.
-- pyMannKendall recibe únicamente la secuencia de valores. Si hay años faltantes,
-  sus pruebas consideran observaciones consecutivas en el arreglo, no la distancia
-  real entre años. La función agrega una advertencia cuando detecta esos huecos.
-- La autocorrelación lag-1 se calcula sobre los residuos de la recta de Sen,
-  no sobre la serie original, para reducir la influencia de la tendencia.
-- |autocorrelación residual lag-1| > 0.2 es un criterio práctico configurable,
-  no un umbral estadístico universal.
-- Para advertir sobre un efecto pequeño se compara el cambio estimado con la
-  desviación estándar de los residuos, no con la dispersión de la serie tendencial.
-- _MIN_N_FOR_AUTOCORR = 4 es solo un mínimo computacional heurístico: produce tres
-  parejas rezagadas, una estimación muy inestable que debe interpretarse con cautela.
-  Los criterios se explican en README.md.
+Methodological notes:
+- Sen's slope and its confidence interval are calculated using the actual years as x,
+  so gaps between years affect the slope per unit of time.
+- pyMannKendall receives only the sequence of values. If years are missing,
+  its tests treat consecutive observations in the array as consecutive, regardless
+  of the actual distance between years. The function adds a warning when it detects
+  such gaps.
+- Lag-1 autocorrelation is calculated on the residuals from the Sen line,
+  not on the original series, to reduce the influence of the trend.
+- |residual lag-1 autocorrelation| > 0.2 is a configurable practical criterion,
+  not a universal statistical threshold.
+- To warn about a small effect, the estimated change is compared with the
+  standard deviation of the residuals, not the dispersion of the trended series.
+- _MIN_N_FOR_AUTOCORR = 4 is only a heuristic computational minimum: it yields three
+  lagged pairs, a highly unstable estimate that should be interpreted with caution.
+  The criteria are explained in README.md.
 """
 
 from dataclasses import dataclass, field
@@ -32,40 +33,40 @@ from scipy.stats import theilslopes
 import pymannkendall as mk
 
 
-# Criterios heurísticos del ejercicio (no son estándares universales).
+# Heuristic criteria for the exercise (not universal standards).
 _AUTOCORR_THRESHOLD = 0.2
 _SMALL_EFFECT_RATIO = 0.1
-# Con n=4 quedan solo 3 parejas (t-1, t); es un mínimo heurístico para poder
-# calcular la correlación, NO una garantía de precisión estadística. Véase README.md.
+# With n=4, only 3 pairs (t-1, t) remain; this is a heuristic minimum for
+# calculating the correlation, NOT a guarantee of statistical precision. See README.md.
 _MIN_N_FOR_AUTOCORR = 4
 
 
 @dataclass
 class TrendResult:
-    """Contiene el resumen estadístico de una tendencia."""
+    """Contains the statistical summary of a trend."""
 
     n: int
-    sen_slope_decade: float       # unidades por década
-    ci_low_decade: float          # límite inferior, unidades por década
-    ci_high_decade: float         # límite superior, unidades por década
+    sen_slope_decade: float       # units per decade
+    ci_low_decade: float          # lower bound, units per decade
+    ci_high_decade: float         # upper bound, units per decade
     p_value: float
     z: float
     trend: str                    # "increasing" | "decreasing" | "no trend"
     significant: bool
     lag1_autocorr: float
-    method: str                   # "Mann-Kendall" o "Hamed-Rao"
+    method: str                   # "Mann-Kendall" or "Hamed-Rao"
     warnings: list[str] = field(default_factory=list)
 
 
 def _calculate_lag1_autocorrelation(values: np.ndarray) -> float:
-    """Calcula corr(values[:-1], values[1:]); devuelve NaN si no se puede."""
+    """Calculate corr(values[:-1], values[1:]); return NaN if not possible."""
     if values.size < _MIN_N_FOR_AUTOCORR:
         return float("nan")
 
     previous = values[:-1]
     following = values[1:]
 
-    # La correlación de Pearson no está definida si uno de los arreglos es constante.
+    # Pearson correlation is undefined if either array is constant.
     if np.std(previous) == 0 or np.std(following) == 0:
         return float("nan")
 
@@ -74,28 +75,28 @@ def _calculate_lag1_autocorrelation(values: np.ndarray) -> float:
 
 
 def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
-    """Analiza una tendencia monotónica en una serie temporal anual.
+    """Analyze a monotonic trend in an annual time series.
 
     Parameters
     ----------
     years:
-        Años de las observaciones. Pueden existir años faltantes.
+        Years of the observations. Some years may be missing.
     values:
-        Valores observados para cada año. Se permiten NaN.
+        Observed values for each year. NaN values are allowed.
     alpha:
-        Nivel de significancia de Mann-Kendall, entre 0 y 1 (por defecto 0.05).
+        Mann-Kendall significance level, between 0 and 1 (default 0.05).
 
     Returns
     -------
     TrendResult
-        Pendiente de Sen e intervalo por década, resultados de la prueba,
-        autocorrelación estimada, método empleado y advertencias.
+        Sen's slope and confidence interval per decade, test results,
+        estimated autocorrelation, method used, and warnings.
 
     Raises
     ------
     ValueError
-        Si alpha no está entre 0 y 1, las entradas no son vectores de igual
-        longitud, hay años duplicados o quedan menos de dos observaciones válidas.
+        If alpha is not between 0 and 1, the inputs are not vectors of equal
+        length, years are duplicated, or fewer than two valid observations remain.
     """
     if not 0 < alpha < 1:
         raise ValueError("alpha debe ser un número entre 0 y 1 (sin incluirlos).")
@@ -112,7 +113,7 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
     if years_array.size != values_array.size:
         raise ValueError("years y values deben tener la misma longitud.")
 
-    # Quitar las parejas en las que el año o el valor no sea finito.
+    # Remove pairs where the year or value is not finite.
     valid_mask = np.isfinite(years_array) & np.isfinite(values_array)
     years_array = years_array[valid_mask]
     values_array = values_array[valid_mask]
@@ -123,7 +124,7 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
             "Se necesitan al menos dos observaciones válidas para calcular la pendiente."
         )
 
-    # Ordenar ambas series usando el mismo índice para conservar las parejas año-valor.
+    # Sort both series using the same index to preserve year-value pairs.
     order = np.argsort(years_array)
     years_array = years_array[order]
     values_array = values_array[order]
@@ -138,16 +139,16 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
             "Serie corta: hay menos de 10 observaciones válidas; interpreta el resultado con cautela."
         )
 
-    # Avisar si hay huecos: las pruebas Mann-Kendall reciben la secuencia de valores,
-    # mientras que theilslopes sí utiliza las distancias reales entre años.
+    # Warn about gaps: Mann-Kendall tests receive the sequence of values,
+    # while theilslopes does use the actual distances between years.
     if np.any(np.diff(years_array) != 1):
         warning_messages.append(
             "Hay huecos en years: la autocorrelación y Mann-Kendall usan observaciones "
             "válidas consecutivas, que pueden no corresponder a años calendario consecutivos."
         )
 
-    # SciPy interpreta alpha como nivel de confianza (p. ej. 0.95), mientras que
-    # esta función usa alpha como nivel de significancia (p. ej. 0.05).
+    # SciPy interprets alpha as the confidence level (e.g. 0.95), while
+    # this function uses alpha as the significance level (e.g. 0.05).
     confidence_level = 1.0 - alpha
     slope, intercept, ci_low, ci_high = theilslopes(
         values_array,
@@ -155,14 +156,14 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         alpha=confidence_level,
     )
 
-    # theilslopes entrega unidades por año; multiplicar por 10 da unidades por década.
+    # theilslopes returns units per year; multiplying by 10 gives units per decade.
     sen_slope_decade = float(slope * 10.0)
     ci_low_decade = float(ci_low * 10.0)
     ci_high_decade = float(ci_high * 10.0)
 
-    # Quitar la tendencia estimada antes de medir autocorrelación. Si se calcula
-    # sobre values_array directamente, una tendencia sostenida puede producir una
-    # correlación alta aunque el ruido/residuo no tenga memoria temporal.
+    # Remove the estimated trend before measuring autocorrelation. Calculating it
+    # directly on values_array can produce a high correlation from a sustained trend,
+    # even when the noise/residual has no temporal memory.
     fitted_trend = slope * years_array + intercept
     residuals = values_array - fitted_trend
     lag1_autocorr = _calculate_lag1_autocorrelation(residuals)
@@ -173,7 +174,7 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
             "se utilizará Mann-Kendall original."
         )
 
-    # Seleccionar la prueba según la regla práctica indicada en el ejercicio.
+    # Select the test according to the practical rule specified in the exercise.
     if (
         np.isfinite(lag1_autocorr)
         and abs(lag1_autocorr) > _AUTOCORR_THRESHOLD
@@ -184,9 +185,10 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         test_result = mk.original_test(values_array, alpha=alpha)
         method = "Mann-Kendall"
 
-    # Hamed-Rao puede devolver NaN (p. ej. con autocorrelación negativa, la
-    # varianza corregida sale negativa). Si pasa, usar Mann-Kendall original
-    # y avisarlo, en vez de reportar "no significativa" sin explicación.
+    # Hamed-Rao can return NaN (e.g. with negative autocorrelation, the
+    # corrected variance becomes negative). If this happens, use the original
+    # Mann-Kendall test and issue a warning instead of reporting "not significant"
+    # without explanation.
     if method == "Hamed-Rao" and not (
         np.isfinite(test_result.p) and np.isfinite(test_result.z)
     ):
@@ -205,10 +207,10 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         raise ValueError("No se pudo calcular un valor p válido para esta serie.")
     significant = bool(p_value < alpha)
 
-    # Advertir cuando hay significancia estadística, pero el cambio estimado
-    # durante el periodo completo es pequeño respecto a la variabilidad observada.
-    # La variabilidad relevante para esta advertencia es la dispersión alrededor
-    # de la tendencia, por eso usamos los residuos y no la serie original.
+    # Warn when the result is statistically significant, but the estimated change
+    # over the entire period is small relative to the observed variability.
+    # The relevant variability for this warning is the dispersion around the trend,
+    # so we use the residuals rather than the original series.
     variability = float(np.std(residuals, ddof=1))
     elapsed_years = float(years_array[-1] - years_array[0])
     estimated_total_change = abs(sen_slope_decade) * elapsed_years / 10.0
