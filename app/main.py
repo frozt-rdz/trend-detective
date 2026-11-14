@@ -1,3 +1,4 @@
+# AI Generated
 from pathlib import Path
 import sys
 
@@ -139,7 +140,8 @@ else:
         a.metric("Pendiente de Sen", f"{result.sen_slope_decade:+.3f} {unit}/década")
         b.metric("Valor p", f"{result.p_value:.4g}")
         c.metric("Método", result.method)
-        st.write(f"Tendencia: **{result.trend}**. Significativa: **{'Sí' if result.significant else 'No'}**.")
+        significance = 'Sin resolver' if result.significant is None else ('Sí' if result.significant else 'No')
+        st.write(f"Tendencia: **{result.trend}**. Significativa: **{significance}**.")
         st.caption(f"Intervalo de confianza: [{result.ci_low_decade:.3f}, {result.ci_high_decade:.3f}] {unit}/década")
         for warning in result.warnings:
             st.warning(warning)

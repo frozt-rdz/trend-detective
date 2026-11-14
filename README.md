@@ -121,3 +121,21 @@ Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K., & Staffor
 GISTEMP Team. (2026). GISS Surface Temperature Analysis (GISTEMP), version 4 [Conjunto de datos]. NASA Goddard Institute for Space Studies. Consultado el 11 de noviembre de 2026. https://data.giss.nasa.gov/gistemp/
 
 Lenssen, N., Schmidt, G. A., Hendrickson, M., Jacobs, P., Menne, M. J., & Ruedy, R. (2024). A NASA GISTEMPv4 observational uncertainty ensemble. Journal of Geophysical Research: Atmospheres, 129, e2023JD040179. https://doi.org/10.1029/2023JD040179
+
+## Giovanni regional trends
+
+Run from the repository root with the project environment active.
+
+```powershell
+python -m pipeline.ingest_giovanni
+python -m stats.analyze_giovanni
+python -m streamlit run stats/visualize_giovanni.py
+```
+
+The 18 exports cover chiapas, morelos, south_amazon, sonora, zacatecas and sahel. Ingestion accepts legacy suelo and suramazonias filenames, rejects files mapping to the same variable and region, and records each original filename, SHA-256, product, DOI, geographic bounds and reproduction URL in giovanni_catalog.json.
+
+Only years with twelve distinct valid calendar months enter the analysis. Annual precipitation in mm sums monthly mean rates in mm/day multiplied by calendar days (including leap days). Temperature and soil moisture use equally weighted monthly means. Slopes and conventional 95% Sen intervals use actual calendar years and are expressed per decade. Intervals do not account for serial correlation.
+
+The primary test is selected using the existing residual lag-one heuristic. When Hamed–Rao returns a nonpositive variance or invalid statistic, the report retains its variance, method and warning, leaves p, q and significance empty, and labels the result unresolved. No fallback is used. A separate dependence-aware sensitivity analysis would require a prespecified dependence model or block length; 25 years provide limited information for estimating it.
+
+Benjamini–Hochberg uses the full planned family size of 18 and ranks only finite primary p-values. For rank i, the candidate adjusted value is 18 p(i) / i; reverse cumulative minima enforce monotonicity and values are capped at one. Unresolved comparisons retain empty q-values. The final threshold is q ≤ 0.05. The usual BH guarantee assumes valid primary p-values and independence or suitable positive dependence; correlation among regions and variables and heuristic test selection limit the interpretation.
