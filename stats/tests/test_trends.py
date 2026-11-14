@@ -119,3 +119,13 @@ def test_p_value_is_always_finite_with_noise():
     for _ in range(100):
         r = trend_report(years, rng.normal(size=20))
         assert np.isfinite(r.p_value) and np.isfinite(r.z)
+
+def test_negative_autocorrelation_does_not_use_hamed_rao():
+    # With negative autocorrelation Hamed-Rao can inflate z or give a negative
+    # variance; only positive autocorrelation should trigger it.
+    years = np.arange(2000, 2020)
+    values = np.array([1.0, -1.0] * 10) + 0.01 * np.arange(20)
+    result = trend_report(years, values)
+    assert result.lag1_autocorr < -0.2
+    assert result.method == "Mann-Kendall"
+    assert result.status == "valid" and np.isfinite(result.p_value)

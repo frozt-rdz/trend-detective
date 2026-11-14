@@ -1,0 +1,4 @@
+variable,giovanni_name,giovanni_data_id,source_units,scale,offset,units,source,doi
+precip,Merged satellite-gauge precipitation estimate - Final Run (recommended for general use),,mm/hr,24,0,mm/day,GPM IMERG Final Run monthly v07 (GPM_3IMERGM),https://doi.org/10.5067/GPM/IMERG/3B-MONTH/07
+temp,2-meter air temperature,,K,1,-273.15,degC,MERRA-2 M2TMNXSLV v5.12.4,https://doi.org/10.5067/AP1B0BA5PD2K
+soil,Soil moisture content (0 - 10 cm underground),GLDAS_NOAH025_M_2_1_SoilMoi0_10cm_inst,kg m-2,1,0,kg m-2,GLDAS Noah L4 monthly 0.25 deg v2.1 (GLDAS_NOAH025_M),https://doi.org/10.5067/SXAVCZFAQLNO
