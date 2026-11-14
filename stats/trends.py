@@ -4,9 +4,9 @@ Dependencies:
     pip install numpy scipy pymannkendall
 
 Usage:
-    resultado = trend_report(years, values)
-    print(resultado.sen_slope_decade)
-    print(resultado.trend)
+    result = trend_report(years, values)
+    print(result.sen_slope_decade)
+    print(result.trend)
 
 Methodological notes:
 - Sen's slope and its confidence interval are calculated using the actual years as x,
@@ -99,19 +99,19 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         length, years are duplicated, or fewer than two valid observations remain.
     """
     if not 0 < alpha < 1:
-        raise ValueError("alpha debe ser un número entre 0 y 1 (sin incluirlos).")
+        raise ValueError("alpha must be a number between 0 and 1 (exclusive).")
 
     try:
         years_array = np.asarray(years, dtype=float)
         values_array = np.asarray(values, dtype=float)
     except (TypeError, ValueError) as exc:
-        raise ValueError("years y values deben contener datos numéricos.") from exc
+        raise ValueError("years and values must contain numeric data.") from exc
 
     if years_array.ndim != 1 or values_array.ndim != 1:
-        raise ValueError("years y values deben ser arreglos unidimensionales.")
+        raise ValueError("years and values must be one-dimensional arrays.")
 
     if years_array.size != values_array.size:
-        raise ValueError("years y values deben tener la misma longitud.")
+        raise ValueError("years and values must have the same length.")
 
     # Remove pairs where the year or value is not finite.
     valid_mask = np.isfinite(years_array) & np.isfinite(values_array)
@@ -121,7 +121,7 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
     n = int(values_array.size)
     if n < 2:
         raise ValueError(
-            "Se necesitan al menos dos observaciones válidas para calcular la pendiente."
+            "At least two valid observations are required to calculate the slope."
         )
 
     # Sort both series using the same index to preserve year-value pairs.
@@ -130,21 +130,21 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
     values_array = values_array[order]
 
     if np.any(np.diff(years_array) == 0):
-        raise ValueError("years contiene años duplicados; debe haber un valor por año.")
+        raise ValueError("years contains duplicate years; there must be one value per year.")
 
     warning_messages: list[str] = []
 
     if n < 10:
         warning_messages.append(
-            "Serie corta: hay menos de 10 observaciones válidas; interpreta el resultado con cautela."
+            "Short series: fewer than 10 valid observations; interpret the result with caution."
         )
 
     # Warn about gaps: Mann-Kendall tests receive the sequence of values,
     # while theilslopes does use the actual distances between years.
     if np.any(np.diff(years_array) != 1):
         warning_messages.append(
-            "Hay huecos en years: la autocorrelación y Mann-Kendall usan observaciones "
-            "válidas consecutivas, que pueden no corresponder a años calendario consecutivos."
+            "There are gaps in years: autocorrelation and Mann-Kendall use consecutive "
+            "valid observations, which may not correspond to consecutive calendar years."
         )
 
     # SciPy interprets alpha as the confidence level (e.g. 0.95), while
@@ -169,9 +169,9 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
     lag1_autocorr = _calculate_lag1_autocorrelation(residuals)
     if not np.isfinite(lag1_autocorr):
         warning_messages.append(
-            "No fue posible estimar la autocorrelación lag-1 residual de forma fiable "
-            "(se requieren al menos 4 observaciones y variación en los residuos); "
-            "se utilizará Mann-Kendall original."
+            "Could not reliably estimate residual lag-1 autocorrelation "
+            "(at least 4 observations and variation in the residuals are required); "
+            "the original Mann-Kendall test will be used."
         )
 
     # Select the test according to the practical rule specified in the exercise.
@@ -193,8 +193,8 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         np.isfinite(test_result.p) and np.isfinite(test_result.z)
     ):
         warning_messages.append(
-            "Hamed-Rao no produjo un valor p válido; "
-            "se utilizó Mann-Kendall original."
+            "Hamed-Rao did not produce a valid p-value; "
+            "the original Mann-Kendall test was used."
         )
         test_result = mk.original_test(values_array, alpha=alpha)
         method = "Mann-Kendall"
@@ -204,7 +204,7 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
     trend = str(test_result.trend)
 
     if not (np.isfinite(p_value) and np.isfinite(z)):
-        raise ValueError("No se pudo calcular un valor p válido para esta serie.")
+        raise ValueError("Could not calculate a valid p-value for this series.")
     significant = bool(p_value < alpha)
 
     # Warn when the result is statistically significant, but the estimated change
@@ -222,9 +222,9 @@ def trend_report(years, values, alpha: float = 0.05) -> TrendResult:
         and estimated_total_change < _SMALL_EFFECT_RATIO * variability
     ):
         warning_messages.append(
-            "La tendencia es estadísticamente significativa, pero el cambio estimado "
-            "durante todo el periodo es menor al 10 % de la desviación estándar; "
-            "su relevancia práctica podría ser pequeña."
+            "The trend is statistically significant, but the estimated change over "
+            "the entire period is less than 10% of the standard deviation; "
+            "its practical relevance may be small."
         )
 
     return TrendResult(

@@ -29,7 +29,7 @@ def _generate_ar1(seed: int = 42, n: int = 100, phi: float = 0.7) -> np.ndarray:
     return values
 
 
-def test_tendencia_clara_es_significativa_y_pendiente_coincide_con_scipy():
+def test_clear_trend_is_significant_and_slope_matches_scipy():
     """A known trend with little noise should be detected as increasing."""
     years = np.arange(1990, 2020)
     rng = np.random.default_rng(17)
@@ -49,7 +49,7 @@ def test_tendencia_clara_es_significativa_y_pendiente_coincide_con_scipy():
     assert result.ci_high_decade == pytest.approx(expected.high_slope * 10.0)
 
 
-def test_ruido_blanco_coincide_con_mann_kendall_original():
+def test_white_noise_matches_original_mann_kendall():
     """With white noise and low residual autocorrelation, the original MK test is used."""
     rng = np.random.default_rng(0)
     years = np.arange(1950, 2030)
@@ -64,7 +64,7 @@ def test_ruido_blanco_coincide_con_mann_kendall_original():
     assert result.p_value == pytest.approx(expected.p)
 
 
-def test_ar1_sin_tendencia_selecciona_hamed_rao_y_compara_p_values():
+def test_ar1_without_trend_selects_hamed_rao_and_compares_p_values():
     """AR(1) should activate Hamed-Rao; no assumption is made that p is not significant."""
     years = np.arange(1900, 2000)
     values = _generate_ar1(seed=42, n=years.size, phi=0.7)
@@ -83,7 +83,7 @@ def test_ar1_sin_tendencia_selecciona_hamed_rao_y_compara_p_values():
 
 
 @pytest.mark.parametrize("alpha", [0.0, 1.0, -0.01, 1.01])
-def test_alpha_fuera_de_rango_lanza_value_error(alpha):
+def test_alpha_out_of_range_raises_value_error(alpha):
     years = np.arange(2000, 2006)
     values = np.arange(6, dtype=float)
 
@@ -91,15 +91,15 @@ def test_alpha_fuera_de_rango_lanza_value_error(alpha):
         trend_report(years, values, alpha=alpha)
 
 
-def test_anios_duplicados_lanzan_value_error():
+def test_duplicate_years_raise_value_error():
     years = np.array([2000, 2001, 2001, 2003])
     values = np.array([1.0, 2.0, 3.0, 4.0])
 
-    with pytest.raises(ValueError, match="duplicados"):
+    with pytest.raises(ValueError, match="duplicate years"):
         trend_report(years, values)
 
 
-def test_nan_se_elimina_y_n_refleja_observaciones_validas():
+def test_nan_is_removed_and_n_reflects_valid_observations():
     """Pairs with NaN are removed, and n reports how many remain."""
     years = np.arange(2000, 2010)
     rng = np.random.default_rng(23)
@@ -111,11 +111,11 @@ def test_nan_se_elimina_y_n_refleja_observaciones_validas():
     assert result.n == 8
     valid_pairs = np.isfinite(years) & np.isfinite(values)
     assert result.n == int(valid_pairs.sum())
-    assert any("menos de 10" in warning for warning in result.warnings)
+    assert any("fewer than 10" in warning for warning in result.warnings)
 
-def test_p_value_siempre_finito_en_ruido():
+def test_p_value_is_always_finite_with_noise():
     rng = np.random.default_rng(0)
-    anios = np.arange(2000, 2020)
+    years = np.arange(2000, 2020)
     for _ in range(100):
-        r = trend_report(anios, rng.normal(size=20))
+        r = trend_report(years, rng.normal(size=20))
         assert np.isfinite(r.p_value) and np.isfinite(r.z)
