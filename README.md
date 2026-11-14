@@ -1,30 +1,30 @@
 ﻿# Trend Detective
 
-Herramienta para detectar tendencias en variables del sistema terrestre.
+A tool for detecting trends in Earth system variables.
 
 **NASA Space Apps Challenge 2026: Be An Earth System Trend Detective!**
 
-## Cómo correrlo
+## How to Run
 
-### 1. Crear entorno virtual
+### 1. Create a Virtual Environment
 
 ```powershell
 python -m venv .venv
 ```
 
-### 2. Activar entorno virtual
+### 2. Activate the Virtual Environment
 
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
 
-### 3. Instalar dependencias
+### 3. Install Dependencies
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-### 4. Ejecutar aplicación
+### 4. Run the Application
 
 ```powershell
 streamlit run app/main.py
@@ -32,18 +32,18 @@ streamlit run app/main.py
 
 ---
 
-## Análisis estadístico de tendencias
+## Statistical Trend Analysis
 
-El módulo `stats/trends.py` contiene la función `trend_report`, diseñada para analizar tendencias en series temporales anuales.
+The `stats/trends.py` module contains the `trend_report` function, designed to analyze trends in annual time series.
 
-### Métodos utilizados
+### Methods Used
 
-- **Pendiente de Sen:** estima la magnitud y dirección de la tendencia mediante la mediana de las pendientes entre pares de observaciones.
-- **Intervalo de confianza de Sen:** estima el rango de valores plausibles para la pendiente mediante `scipy.stats.theilslopes`.
-- **Mann-Kendall:** evalúa si existe una tendencia monotónica en la serie temporal.
-- **Hamed-Rao:** aplica una modificación de Mann-Kendall para considerar la autocorrelación serial.
+- **Sen's slope:** estimates the magnitude and direction of the trend using the median of the slopes between pairs of observations.
+- **Sen's confidence interval:** estimates the range of plausible slope values using `scipy.stats.theilslopes`.
+- **Mann-Kendall:** evaluates whether a monotonic trend exists in the time series.
+- **Hamed-Rao:** applies a Mann-Kendall modification to account for serial autocorrelation.
 
-### Uso
+### Usage
 
 ```python
 from stats.trends import trend_report
@@ -59,61 +59,61 @@ print("Valor p:", result.p_value)
 print("Significativa:", result.significant)
 ```
 
-La función recibe:
+The function accepts:
 
-| Parámetro | Descripción |
+| Parameter | Description |
 |---|---|
-| `years` | Años correspondientes a las observaciones. |
-| `values` | Valores de la variable analizada. |
-| `alpha` | Nivel de significancia estadística (por defecto, 0.05). |
+| `years` | Years corresponding to the observations. |
+| `values` | Values of the variable being analyzed. |
+| `alpha` | Statistical significance level (default: 0.05). |
 
-El resultado `TrendResult` contiene:
+The `TrendResult` output contains:
 
-- `n`: número de observaciones válidas.
-- `sen_slope_decade`: pendiente de Sen por década.
-- `ci_low_decade` y `ci_high_decade`: límites del intervalo de confianza.
-- `p_value`: valor p de la prueba seleccionada.
-- `z`: estadístico Z.
-- `trend`: dirección de la tendencia.
-- `significant`: indica si el resultado es estadísticamente significativo.
-- `lag1_autocorr`: autocorrelación residual de retardo 1.
-- `method`: método estadístico utilizado.
-- `warnings`: advertencias del análisis.
+- `n`: number of valid observations.
+- `sen_slope_decade`: Sen's slope per decade.
+- `ci_low_decade` and `ci_high_decade`: confidence interval bounds.
+- `p_value`: p-value of the selected test.
+- `z`: Z statistic.
+- `trend`: direction of the trend.
+- `significant`: indicates whether the result is statistically significant.
+- `lag1_autocorr`: lag-1 residual autocorrelation.
+- `method`: statistical method used.
+- `warnings`: analysis warnings.
 
-### Consideraciones metodológicas
+### Methodological Considerations
 
-1. Los valores no finitos (`NaN` e infinitos) se eliminan conjuntamente con sus años correspondientes.
-2. La pendiente y el intervalo de confianza se expresan en unidades por década.
-3. La autocorrelación lag-1 se calcula sobre los residuos de la tendencia estimada, evitando confundir una tendencia ascendente o descendente con autocorrelación residual.
-4. Se utiliza un umbral heurístico de `|r1| > 0.2` para decidir cuándo aplicar Hamed-Rao. No representa una prueba formal de significancia de autocorrelación ni es un umbral universal.
-5. Se requiere un mínimo computacional de cuatro observaciones para estimar la autocorrelación, aunque una muestra tan pequeña no garantiza una estimación confiable.
-6. Las observaciones deben representar una secuencia temporal adecuada. Los años faltantes pueden afectar la interpretación de la autocorrelación y de las pruebas que consideran observaciones consecutivas.
+1. Non-finite values (`NaN` and infinities) are removed together with their corresponding years.
+2. The slope and confidence interval are expressed in units per decade.
+3. Lag-1 autocorrelation is calculated on the residuals of the estimated trend, avoiding confusion between an upward or downward trend and residual autocorrelation.
+4. A heuristic threshold of `|r1| > 0.2` is used to decide when to apply Hamed-Rao. This is not a formal test of autocorrelation significance, nor is it a universal threshold.
+5. A computational minimum of four observations is required to estimate autocorrelation, although such a small sample does not guarantee a reliable estimate.
+6. Observations should represent an appropriate time sequence. Missing years can affect the interpretation of autocorrelation and tests that treat observations as consecutive.
 
-La significancia estadística no implica necesariamente que la magnitud de la tendencia sea importante desde el punto de vista ambiental.
+Statistical significance does not necessarily mean that the magnitude of the trend is environmentally important.
 
 ---
 
-## Pruebas automatizadas
+## Automated Tests
 
-Las pruebas del módulo se encuentran en `stats/tests/test_trends.py`.
+The module's tests are located in `stats/tests/test_trends.py`.
 
-Para ejecutarlas desde la raíz del proyecto:
+To run them from the project root:
 
 ```powershell
 python -m pytest -v
 ```
 
-Los casos de prueba incluyen:
+Test cases include:
 
-- Tendencia creciente conocida.
-- Ruido blanco.
-- Serie AR(1) sin tendencia determinista.
-- Validación de `alpha`.
-- Detección de años duplicados.
-- Eliminación de valores `NaN`.
+- A known increasing trend.
+- White noise.
+- An AR(1) series with no deterministic trend.
+- `alpha` validation.
+- Duplicate year detection.
+- Removal of `NaN` values.
 
 ---
 
-## Fuentes de datos
+## Data Sources
 
-Se documentarán conforme se agreguen variables, incluyendo producto, versión y DOI.
+Sources will be documented as variables are added, including the product, version, and DOI.
